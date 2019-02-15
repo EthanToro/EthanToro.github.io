@@ -134,7 +134,6 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  border: red 3px solid;
   margin-left: auto;
   margin-right: auto;
 }
@@ -144,7 +143,6 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  border: blue 3px solid;
   margin-left: auto;
   margin-right: auto;
 }
@@ -156,5 +154,4 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  border: yellow 3px solid;
 }
