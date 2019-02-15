@@ -11,6 +11,11 @@ span {
 
 }
 
+.span1 {
+  font-size: 15px;
+
+}
+
 /* NavBar */
 
 .header {
@@ -123,7 +128,7 @@ body {
 .icon{
 
   display: flex;
-  border: 3px solid green;
+  background-color: #333;
 
 }
 
@@ -132,9 +137,7 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: right;
-  border: 3px solid red;
-  margin-left: 40%;
+  text-align: center;
 }
 
 .icon2 {
@@ -142,8 +145,7 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: right;
-  border: 3px solid blue;
+  text-align: center;
 }
 
 .icon3 {
@@ -151,7 +153,6 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: right;
-  border: 3px solid yellow;
+  text-align: center;
 }
 
