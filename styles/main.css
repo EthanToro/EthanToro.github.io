@@ -8,12 +8,10 @@ html {
 
 span {
   font-size: 25px;
-
 }
 
 .span1 {
   font-size: 15px;
-
 }
 
 /* NavBar */
@@ -48,7 +46,6 @@ span {
 }
 
 @media screen and (max-width: 700px) {
-
   .row,
   .navbar {
     flex-direction: column;
@@ -92,7 +89,6 @@ body {
 
 .textWrap {
   text-align: left;
-
 }
 
 /* Footer*/
@@ -125,11 +121,12 @@ body {
 
 /* icons */
 
-.icon{
-
+.icon {
   display: flex;
   background-color: #333;
-
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon1 {
@@ -137,7 +134,9 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: center;
+  border: red 3px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon2 {
@@ -145,7 +144,9 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: center;
+  border: blue 3px solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon3 {
@@ -153,6 +154,7 @@ body {
   width: auto;
   height: auto;
   position: relative;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: yellow 3px solid;
 }
-
