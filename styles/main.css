@@ -74,7 +74,6 @@ body {
   background-color: lightblue;
   padding: 20px;
 }
-
 .p1 {
   padding: 0px, 50px, 50px;
 }
@@ -92,6 +91,7 @@ body {
 }
 
 /* Footer*/
+
 .footers {
   padding: 10px;
   text-align: center;
@@ -100,6 +100,7 @@ body {
 }
 
 /* Media */
+
 .img {
   background-color: #85c1e9;
   width: auto;
@@ -114,7 +115,6 @@ body {
   width: auto;
   height: auto;
   position: relative;
-
   padding: 10px;
   border: 20px;
 }
