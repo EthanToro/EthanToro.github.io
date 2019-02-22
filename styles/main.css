@@ -74,6 +74,13 @@ body {
   background-color: lightblue;
   padding: 20px;
 }
+
+.body2{
+
+  background-color: lightblue;
+
+}
+
 .p1 {
   padding: 0px, 50px, 50px;
 }
@@ -154,4 +161,14 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Gallery */
+
+.picture {
+
+  flex: 30%;
+  background-color: #85c1e9;
+  padding: 20px;
+
 }
