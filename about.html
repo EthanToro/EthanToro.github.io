@@ -1,83 +1,181 @@
-<!DOCTYPE html>
-<html>
-
-<!––Heading––>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="scripts/bootstrap.js"></script>
     <title>Ethan Toro - Web Designer</title>
-    <meta charset="UTF-8">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
 </head>
 
-<!––Body––>
-
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" st>
+            <a class="navbar-brand" href="gallery.html">Carousel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" class="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <a href="index.html">Home</a>
+                    <a class="active" href="about.html">About Me</a>
+                    <a href="links.html">Links</a>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
 
-    <!––Header––>
+    <main role="main" style="background-color:#85c1e9">
 
-    <div class="header">
-        <img src="images/ET logo.jpg" alt="ETA logo" witdh="75px" height="75px" />
-        <h1>Ethan Toro - <span>Web Designer</span></h1>
-    </div>
-
-    <!––Navbar––>
-
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a class="active" href="about.html">About Me</a>
-        <a href="links.html">Links</a>
-        <a href="gallery.html">Gallery</a>
-    </div>
-
-    <!––Body––>
-
-    <div class="row">
-        <div class="side">
-            <h2>About Me</h2>
-            <h5>This is Me:</h5>
-        </div>
-        <div class="main">
-            <h2>My Website</h2>
-            <h5>Image of Website, lorem 50, 10000</h5>
-            <div class="p1">
-                <p>
-                    This image is of a spiceffic project that you are using right now.
-                </p>
-                <p>Can't think of much to say but... Lorem ipsum dolor sit ametconsectetur adipisicing elit. Esse,
-                    illo!
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">About Me</h1>
+                <p class="lead">This is Me
                 </p>
             </div>
-            <div class="break1"></div>
-
-            <!––Image––>
-
-            <div class="img2">
-                <img src="images/bridge.jpg">
-            </div>
-            <div class="break"></div>
         </div>
-    </div>
+
+
+
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing" style="background-color:#85c1e9">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images\img1.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images\img2.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
+                        tortor mauris condimentum nibh.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="images\img3.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
+                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
+                            mind.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/img5.jpg"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
+                            yourself.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="images/img6.jpg"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="images/img7.jpg"
+                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="/docs/4.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+        crossorigin="anonymous"></script>
 </body>
-
-<!––Footer––>
-
-<footer>
-    <div class="footers">
-        <h3>Ethan Toro - <span class="span1">Web Designer</span></h3>
-        <h4>&copy; 2019 - All Rights Reserved</h4>
-        <div class="icon">
-            <div class="icon1">
-                <a href="https://twitter.com/EthanToro3" target="_blank"><img src="images/twitter.png"></a>
-            </div>
-            <div class="icon2">
-                <a href="https://github.com/ETAwesome" target="_blank"><img src="images/github.png"></a>
-            </div>
-            <div class="icon3">
-                <a href="https://www.facebook.com/ethan.toro.311" target="_blank"><img src="images/facebook.png"></a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>

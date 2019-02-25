@@ -4,15 +4,6 @@ html {
   height: 100%;
 }
 
-/* Header */
-
-span {
-  font-size: 25px;
-}
-
-.span1 {
-  font-size: 15px;
-}
 
 /* NavBar */
 
@@ -58,32 +49,6 @@ span {
 
 /* Body */
 
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-.side {
-  flex: 30%;
-  background-color: #85c1e9;
-  padding: 20px;
-}
-
-.main {
-  flex: 70%;
-  background-color: lightblue;
-  padding: 20px;
-}
-
-.body2{
-
-  background-color: lightblue;
-
-}
-
-.p1 {
-  padding: 0px, 50px, 50px;
-}
 
 .break {
   padding: 150px;
