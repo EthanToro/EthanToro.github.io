@@ -6,6 +6,13 @@
     width: 100%;
     height: auto;
 }
-.scale1{
+
+.scale1 {
     width: 12.8em;
+}
+
+#row123 {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
 }
