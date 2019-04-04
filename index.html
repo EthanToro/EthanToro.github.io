@@ -1,75 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Ethan Toro | Designer</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Nav - MQ - Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Ethan Toro</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html" id="logo">
-            <h1>Ethan Toro</h1>
-            <h2>Designer</h2>
-        </a>
         <nav>
-            <ul>
-                <li><a href="index.html" class="selected">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </nav>
     </header>
-    <div id="wrapper">
-        <section>
-            <ul id="gallery">
-                <li>
-                    <a href="images/img1.jpg">
-                        <img src="images/img1.jpg" alt="">
-                        <p>1</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="images/img2.jpg">
-                        <img src="images/img2.jpg" alt="">
-                        <p>2</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="images/img3.jpg">
-                        <img src="images/img3.jpg" alt="">
-                        <p>3</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="images/img4.jpg">
-                        <img src="images/img4.jpg" alt="">
-                        <p>4</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="images/img5.jpg">
-                        <img src="images/img5.jpg" alt="">
-                        <p>5</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="images/img6.jpg">
-                        <img src="images/img6.jpg" alt="">
-                        <p>6</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <p>&copy; 2019 Ethan Toro.</p>
-        </footer>
-    </div>
+    <section>
+        <!-- Title of page -->
+        <div class="maintxt">
+            <p>Ethan Toro</p>
+            <hr>
+            <p>Web Developer</p>
+            <a href="#portfolio" class="port">Portfolio</a>
+        </div>
+    </section>
+    <section >
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <!-- Trigger the Modal -->
+            <img class="myImg" src="img/img1.jpg" alt="Test 1" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img2.jpg" alt="Test 2" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img3.jpg" alt="Test 3" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img4.jpg" alt="Test 4" style="width:100%;max-width:300px">
+            <hr>
+            <img class="myImg" src="img/img5.jpg" alt="Test 1" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img6.jpg" alt="Test 2" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img7.jpg" alt="Test 3" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img8.jpg" alt="Test 4" style="width:100%;max-width:300px">
+            <hr>
+            <img class="myImg" src="img/img9.jpg" alt="Test 1" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img10.jpg" alt="Test 2" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img11.jpg" alt="Test 3" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img12.jpg" alt="Test 4" style="width:100%;max-width:300px">
+            <hr>
+            <img class="myImg" src="img/img13.jpg" alt="Test 1" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img14.jpg" alt="Test 2" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img15.jpg" alt="Test 3" style="width:100%;max-width:300px">
+            <img class="myImg" src="img/img16.jpg" alt="Test 4" style="width:100%;max-width:300px">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </footer>
 </body>
 
 </html>
