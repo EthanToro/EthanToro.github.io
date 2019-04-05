@@ -44,12 +44,18 @@
     font-size: 3em;
 
   }
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 
 
 /***********************
-       Portfolio
+ Portfolio - Responsive
 ***********************/
 
 
