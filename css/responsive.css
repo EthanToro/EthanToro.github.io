@@ -1,5 +1,5 @@
 /***********************
-  Nav Bar - Responsive
+          600px
 ***********************/
 
 
@@ -34,11 +34,22 @@
     text-align: left;
   }
 
-  .maintxt {
+  #maintxt1 {
     position: absolute;
     text-align: center;
     margin-top: 40px;
-    top: 50%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+
+  }
+
+  #maintxt2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3em;
@@ -50,18 +61,60 @@
     display: block;
     margin-bottom: 20px;
   }
+
+  .portfolio {
+    margin-top: 70%;
+    padding-top: 100%;
+    padding-bottom: 7%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  #pimg {
+    position: absolute;
+
+    max-width: 330px;
+    top: 30%;
+    left: 3.3%;
+    border-radius: 10px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+  #column {
+    float: left;
+    width: 100%;
+    padding: 0 50px;
+    margin-top: 110vh;
+    margin-bottom: -500px;
+  }
+  
+  /* Style the counter cards */
+  #card {
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 25px;
+    border-radius: 10px;
+  }
 }
 
 
 
 /***********************
- Portfolio - Responsive
+          700px
 ***********************/
 
 
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
