@@ -77,13 +77,11 @@
     width: 100%;
     border-radius: 10px;
   }
-  #biotxt
 
-
-  * {
+  #biotxt * {
     box-sizing: border-box;
   }
-  
+
   /* Float four columns side by side */
   #column {
     float: left;
@@ -92,7 +90,7 @@
     margin-top: 110vh;
     margin-bottom: -500px;
   }
-  
+
   /* Style the counter cards */
   #card {
     box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);

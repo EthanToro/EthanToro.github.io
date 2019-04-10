@@ -229,6 +229,24 @@ body {
           About
 ***********************/
 
+.biomaintxt {
+  margin-top: 4em;
+  margin-bottom: 3em;
+  text-align: center;
+  font-size: 3em;
+}
+
+.biomaintxt2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 3em;
+}
+
+#biocards {
+  margin-top: 4em;
+  padding-bottom: 8em;
+}
 
 
 /***********************
@@ -247,6 +265,13 @@ body {
   width: 33.33%;
   padding: 0 50px;
   margin-top: 50vh;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 0 50px;
+
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -269,20 +294,5 @@ body {
   text-align: center;
   background-color: #f1f1f1;
   font-size: 25px;
-  border-radius: 10px;
-}
-
-
-
-/***********************
-     Portfolio Image
-***********************/
-
-
-
-.pimg {
-  position: absolute;
-  top: 23%;
-  left: 35%;
   border-radius: 10px;
 }
