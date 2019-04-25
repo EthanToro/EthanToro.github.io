@@ -162,6 +162,13 @@ body {
 }
 
 .column1 {
+  max-width: 100%;
+  float: left;
+  width: 33.33%;
+  padding: 0 50px;
+}
+.column3 {
+  max-width: 100%;
   float: left;
   width: 33.33%;
   padding: 0 50px;
@@ -169,7 +176,11 @@ body {
 
 /* Remove extra left and right margins, due to padding in columns */
 .row {
+
   margin: 0 -5px;
+}
+.row1 {
+  max-width: 100%;
 }
 
 /* Clear floats after the columns */
