@@ -1,44 +1,188 @@
-html {
-  height: 100%;
-  scroll-behavior: smooth;
+
+/* NavBar */
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4D4D4D;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-body {
-  background-color: #cec8ca;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
 }
 
-.FS {
-  font-size: 25px;
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.FS2 {
-  font-size: 20px;
-}
-
-.mf {
-  font-family: "ZCOOL XiaoWei", serif;
-}
-
-.ethan {
-  font-family: "ZCOOL XiaoWei", serif;
-  font-size: 100px;
+/* Add an active class to highlight the current page */
+.active {
+  background-color: #4caf50;
   color: white;
 }
 
-.FSD {
-  font-size: 45px;
-  font-family: "ZCOOL XiaoWei", serif;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
 }
 
-/* Mast Head */
-.masthead {
-  height: 100vh;
-  min-height: 600px;
-  background-image: url("../img/img13.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Hero Image */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #555757;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+  text-align: center;
+  color: black; /* ADD THIS LINE */
+  
+  /* Background styles */
+  background-image: url('../img/img3.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.hero h2 {
+  /* Text styles */
+  font-size: 3em;
+  
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero .btn {
+  /* Positioning and sizing */
+  display: block;
+  width: 100px;
+  
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Text styles */
+  color: black; /* CHANGE THIS LINE */
+  text-decoration: none;
+  font-size: 1.5em;
+  
+  /* Border styles */
+  border: 3px solid black; /* CHANGE THIS LINE */
+  border-radius: 20px;
+}
+.btn{
+  /* Positioning and sizing */
+  display: block;
+  width: 200px;
+  
+  /* Padding and margins */
+  padding: 1em;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Text styles */
+  color: black; /* CHANGE THIS LINE */
+  text-decoration: none;
+  font-size: 1.5em;
+  
+  /* Border styles */
+  border: 3px solid black; /* CHANGE THIS LINE */
+  border-radius: 20px;
+
+  text-align: center;
+}
+.btnstyle{
+  background-color: lightskyblue;
+  margin: auto;
+  padding: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Column Cards */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  margin: 10px;
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  font-size: 30px;
+}
+
+/* Contact Cards */
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 33.33%;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+
 
 /* Portfolio */
 * {
@@ -95,7 +239,7 @@ body {
   margin: auto;
   display: block;
   width: 90%;
-  max-width: 1500px;
+  max-width: 1400px;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -108,7 +252,7 @@ body {
   color: #ccc;
   padding: 10px 0;
   font-size: 30px;
-  height: 150px;
+  height: 160px;
 }
 
 /* Add Animation - Zoom in the Modal */
@@ -131,7 +275,7 @@ body {
 /* The Close Button */
 .close {
   position: absolute;
-  top: 60px;
+  top: 40px;
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;
@@ -146,47 +290,10 @@ body {
   cursor: pointer;
 }
 
-/***********************
-          Cards
-***********************/
 
-* {
-  box-sizing: border-box;
-}
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 0 50px;
-  margin-top: 50vh;
-}
-
-.column1 {
-  float: left;
-  width: 33.33%;
-  padding: 0 50px;
-}
-
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-  margin: 0 -5px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
-  /* this adds the "card" effect */
-  padding: 16px;
+/* footer */
+.copy-clr{
+  color: #f4f4f4;
   text-align: center;
-  background-color: #f1f1f1;
-  font-size: 25px;
-  border-radius: 10px;
 }

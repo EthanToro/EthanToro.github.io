@@ -1,10 +1,4 @@
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-
   .portfolio {
     margin-top: 70%;
     padding-top: 100%;
@@ -25,63 +19,39 @@
     box-sizing: border-box;
   }
 
-  /* Float four columns side by side */
-  #column {
-    float: left;
-    width: 100%;
-    padding: 0 50px;
-    margin-top: 110vh;
-    margin-bottom: -500px;
-  }
-
-  /* Style the counter cards */
-  #card {
-    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
-    /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    font-size: 25px;
-    border-radius: 10px;
-  }
-  .concards {
-    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
-    /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-    font-size: 25px;
-    border-radius: 10px;
-  }
-  .contact {
-    position: absolute;
-    text-align: center;
-    margin-top: 250px;
-    padding-top: 750px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-  }
-  .FS {
-    font-size: 23px;
-  }
-
-  .FS2 {
-    font-size: 20px;
-  }
-  .FSD {
-    font-size: 25px;
-    font-family: "ZCOOL XiaoWei", serif;
-  }
-}
-
-/***********************
-          700px
-***********************/
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
 }
