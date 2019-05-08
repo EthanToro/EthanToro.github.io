@@ -9,9 +9,6 @@ function myFunction() {
       x.className = "topnav";
     }
   } 
-
-
-
   /* Portfolio */
 
 
