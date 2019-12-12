@@ -1,0 +1,354 @@
+/*======
+MAIN.CSS
+======*/
+/*
+General
+*/
+html, body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html h1 {
+    text-align: center;
+    color: black;
+    margin: 0.7em;
+    font-size: 3.5em;
+    text-decoration: underline;
+}
+
+body {
+    background: linear-gradient(45deg, rgba(59, 54, 216, 0.5) 0%, rgba(59, 54, 216, 0.5) 12.5%, rgba(58, 81, 198, 0.5) 12.5%, rgba(58, 81, 198, 0.5) 25%, rgba(56, 107, 180, 0.5) 25%, rgba(56, 107, 180, 0.5) 37.5%, rgba(55, 134, 162, 0.5) 37.5%, rgba(55, 134, 162, 0.5) 50%, rgba(53, 161, 145, 0.5) 50%, rgba(53, 161, 145, 0.5) 62.5%, rgba(52, 188, 127, 0.5) 62.5%, rgba(52, 188, 127, 0.5) 75%, rgba(50, 214, 109, 0.5) 75%, rgba(50, 214, 109, 0.5) 87.5%, rgba(49, 241, 91, 0.5) 87.5%, rgba(49, 241, 91, 0.5) 100%), linear-gradient(135deg, rgb(76, 57, 199) 0%, rgb(76, 57, 199) 12.5%, rgb(72, 81, 188) 12.5%, rgb(72, 81, 188) 25%, rgb(68, 105, 176) 25%, rgb(68, 105, 176) 37.5%, rgb(64, 129, 165) 37.5%, rgb(64, 129, 165) 50%, rgb(61, 153, 153) 50%, rgb(61, 153, 153) 62.5%, rgb(57, 177, 142) 62.5%, rgb(57, 177, 142) 75%, rgb(53, 201, 130) 75%, rgb(53, 201, 130) 87.5%, rgb(49, 225, 119) 87.5%, rgb(49, 225, 119) 100%);
+    height: 100%;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*HR (White)*/
+hr {
+    margin: 1em 25em;
+    padding: 0.1em;
+    background-color: lightgray;
+}
+
+/*HR(Black)*/
+.hr1 {
+    margin: 2em 20em;
+    padding: 0.1em;
+    background-color: black;
+    border: none;
+}
+
+header h2 {
+    color: black;
+    text-align: center;
+    margin: 0.7em;
+    font-size: 3.5em;
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 15px;
+}
+
+
+/*
+Header
+*/
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/img1.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+/*---Style Title text---*/
+#hero-text h1 {
+    font-size: 7em;
+    margin-bottom: 0.3em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*---Style SubHeading text---*/
+#hero-text p {
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    color: whitesmoke;
+}
+
+/*---Style button---*/
+#hero-text button {
+    font-size: 1.7em;
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.5em;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/*
+Navbar
+*/
+.topnav {
+    position: fixed;
+    top: 0;
+    margin: 1em;
+    overflow: hidden;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.7em 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/*---Style the links inside the navigation bar---*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.7em 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topnav a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/*
+Biography
+*/
+.container1 {
+    padding: 1em;
+    width: 100%;
+}
+
+.row1 {
+    width: 100%;
+}
+
+.row1:after, .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-66 {
+    float: left;
+    width: 60%;
+    padding: 2em;
+    margin: 4.3em 5em 0;
+    background-color: #333333;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.column-66 h2 {
+    font-size: 2em;
+    text-align: justify;
+}
+
+.column-33 {
+    float: left;
+    width: 30%;
+}
+
+.column-33 img {
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*
+Gallery
+*/
+#gallery {
+    margin: 1em;
+
+}
+
+.row2 .column1 {
+    padding: 0 8px;
+}
+
+.column1 {
+    float: left;
+    margin: 0 0 0.7em 0;
+    width: 25%;
+    padding: 0.5em;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/**********Modal Content**********/
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    max-width: 100%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 2em;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+    font-size: 1.7em;
+}
+
+img.demo {
+    opacity: 0.6;
+    width: 100%;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+Contact
+*/
+/*
+phone number and email link center
+*/
+.center-link {
+
+}
+
+/*
+phone number and email link center 2
+*/
+.center-link {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: lightgray;
+    font-size: 2em;
+}
+
+/*
+Footer
+*/
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.7em;
+}
+
