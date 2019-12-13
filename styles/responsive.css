@@ -2,7 +2,9 @@
 Responsive
 */
 
-@media only screen and (width: 375px) {
+
+/* Portrait */
+@media only screen and (max-width: 450px) {
     /*---Style Title text---*/
     #hero-text h1 {
         font-size: 4.5em;
@@ -21,7 +23,7 @@ Responsive
 
     .topnav a {
         margin: auto;
-        font-size: 1.03em;
+        font-size: 0.86em;
     }
 
     /*HR (White)*/
@@ -56,8 +58,91 @@ Responsive
     .column1 {
         width: 100%;
     }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+@media only screen and (width: 375px) {
+    .topnav a {
+        font-size: 1em;
+    }
+}
+@media only screen and (width: 411px) {
+    .topnav a {
+        font-size: 1.14em;
+    }
+}
+@media only screen and (width: 414px) {
+    .topnav a {
+        font-size: 1.149em;
+    }
 }
 
+/* landscape */
+@media only screen and (width: 850px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+
+    }
+
+    .topnav a {
+        margin: auto;
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 7em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* iPad Portrait */
 @media only screen and (width: 768px) {
     /*---Style Title text---*/
     #hero-text h1 {
@@ -112,7 +197,65 @@ Responsive
     }
 }
 
-@media only screen and (width: 1440px) {
+
+
+/* iPad Landscape */
+@media only screen and (width: 1024px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 5em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 2em;
+    }
+
+    .topnav a {
+        margin: auto;
+        font-size: 1.7em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 13em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 13em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.7em;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
     html, body {
         height: 100%;
         width: auto;

@@ -37,7 +37,7 @@ hr {
     background-color: lightgray;
 }
 
-/*HR(Black)*/
+/*HR (Black)*/
 .hr1 {
     margin: 2em 20em;
     padding: 0.1em;
@@ -55,6 +55,7 @@ header h2 {
 
 img {
     border-radius: 15px;
+    user-select: none;
 }
 
 
@@ -63,7 +64,7 @@ Header
 */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/img1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/jquery.jpeg");
     /* Set a specific height */
     height: 100%;
     /* Position and center the image to scale nicely on all screens */
@@ -199,7 +200,6 @@ Gallery
 */
 #gallery {
     margin: 1em;
-
 }
 
 .row2 .column1 {
@@ -230,11 +230,12 @@ Gallery
 /**********Modal Content**********/
 .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: black;
     margin: auto;
     padding: 0;
     width: 70%;
     max-width: 100%;
+    border-radius: 20px;
 }
 
 /* The Close Button */
@@ -294,7 +295,6 @@ Gallery
 .caption-container {
     text-align: center;
     background-color: black;
-    padding: 2px 16px;
     color: white;
     font-size: 1.7em;
 }
