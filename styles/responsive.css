@@ -3,7 +3,7 @@ Responsive
 */
 
 
-/* Portrait */
+/* Base Portrait */
 @media only screen and (max-width: 450px) {
     /*---Style Title text---*/
     #hero-text h1 {
@@ -64,24 +64,30 @@ Responsive
         width: 100%;
     }
 }
-@media only screen and (width: 375px) {
+
+/* iPhone 6/7/8 and X Portrait */
+@media only screen and (max-width: 375px) {
     .topnav a {
         font-size: 1em;
     }
 }
-@media only screen and (width: 411px) {
+
+/* Pixel 2 and Pixel 2 xl Portrait */
+@media only screen and (max-width: 411px) {
     .topnav a {
         font-size: 1.14em;
     }
 }
-@media only screen and (width: 414px) {
+
+/* iPhone 6/7/8 Plus Portrait */
+@media only screen and (max-width: 414px) {
     .topnav a {
         font-size: 1.149em;
     }
 }
 
-/* landscape */
-@media only screen and (width: 850px) {
+/* iPhone X landscape */
+@media only screen and (max-width: 812px) {
     /*---Style Title text---*/
     #hero-text h1 {
         font-size: 3.1em;
@@ -142,8 +148,344 @@ Responsive
     }
 }
 
+/* Galaxy s5 Landscape */
+@media only screen and (max-width: 640px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* Pixel 2 Landscape */
+@media only screen and (max-width: 731px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* Pixel 2 Plus Landscape */
+@media only screen and (max-width: 823px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* iPhone 5/SE Landscape */
+@media only screen and (max-width: 568px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 2.5em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* iPhone 6/7/8 Landscape */
+@media only screen and (max-width: 667px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 50%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
+/* iPhone 6/7/8 Plus Landscape */
+@media only screen and (max-width: 736px) {
+    /*---Style Title text---*/
+    #hero-text h1 {
+        font-size: 3.1em;
+    }
+
+    /*---Style SubHeading text---*/
+    #hero-text p {
+        font-size: 1.3em;
+    }
+
+    /*---Style button---*/
+    #hero-text button {
+        font-size: 1.3em;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
+    }
+
+    .column-66 {
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+    }
+
+    .column-66 h2 {
+        text-align: justify;
+        font-size: 1.5em;
+        padding: 0;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 50%;
+    }
+
+    .modal-content {
+        background-color: black;
+        width: 100%;
+    }
+}
+
 /* iPad Portrait */
-@media only screen and (width: 768px) {
+@media only screen and (max-width: 768px) {
     /*---Style Title text---*/
     #hero-text h1 {
         font-size: 5.5em;
@@ -198,9 +540,8 @@ Responsive
 }
 
 
-
 /* iPad Landscape */
-@media only screen and (width: 1024px) {
+@media only screen and (max-width: 1024px) {
     /*---Style Title text---*/
     #hero-text h1 {
         font-size: 5em;
@@ -264,11 +605,11 @@ Responsive
     .column-66 {
         margin: 3.5em 1em 0;
         width: 63.86%;
-        padding: 1.5em;
+        padding: 3em;
     }
 
     .column-66 h2 {
-        text-align: justify;
+        text-align: left;
         font-size: 1.7em;
         margin: auto;
     }
@@ -277,6 +618,43 @@ Responsive
         float: left;
         width: 33.86%;
         padding: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+
+    .column-66 {
+        margin: auto;
+        width: 100%;
+    }
+
+    .column-66 h2 {
+        text-align: left;
+        font-size: 1.7em;
+        margin: auto;
+    }
+
+    .column-33 {
+        float: left;
+        width: 100%;
+        margin: auto;
+        padding: 1em;
+    }
+
+    .column1 {
+        width: 50%;
+    }
+
+    /*HR (White)*/
+    hr {
+        margin: 1em 5em;
+    }
+
+    /*HR(Black)*/
+    .hr1 {
+        margin: 2em 7em;
     }
 
 }
