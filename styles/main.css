@@ -56,12 +56,17 @@ header h2 {
     text-align: center;
     margin: 0.7em;
     font-size: 3.5em;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 img {
     border-radius: 15px;
     user-select: none;
+}
+
+li {
+    font-size: 1.7em;
+    margin: 0.1em;
 }
 
 .container1 {
@@ -96,7 +101,7 @@ Header
 
 /*---Style Title text---*/
 #hero-text h1 {
-    font-size: 7em;
+    font-size: 6em;
     margin-bottom: 0.3em;
     color: whitesmoke;
     text-decoration: none;
@@ -111,12 +116,12 @@ Header
 
 /*---Style button---*/
 #hero-text button {
-    font-size: 1.7em;
+    font-size: 1.6em;
     background-color: whitesmoke;
     color: black;
-    padding: 0.5em;
+    padding: 0.6em 1.6em;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 #000000;
 }
 
 
@@ -167,7 +172,7 @@ Navbar
 /*
 Biography
 */
-#portrait-img{
+#portrait-img {
     width: 20em;
     height: auto;
 }
@@ -186,7 +191,7 @@ Biography
     float: left;
     width: 60%;
     padding: 2em;
-    margin: 4.3em 5em 0;
+    margin: 1.7em 5em 0;
     background-color: #333333;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -204,6 +209,9 @@ Biography
 .column-33 img {
     width: 100%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.contact-box{
+    padding: 4em 2em;
 }
 
 /*
