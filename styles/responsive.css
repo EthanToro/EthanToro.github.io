@@ -224,10 +224,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     /* Gallery Boxes */
     .column1 {
         width: 100%;
+        padding: 1em;
+
     }
 
     /* size of images When click on */
     .modal-content {
+        width: 100%;
+    }
+    #portrait-img{
         width: 100%;
     }
 }
@@ -358,63 +363,3 @@ and (orientation: landscape) {
 }
 
 
-
-/*+++++++++++
-Galaxy Phones
-+++++++++++*/
-
-/* ----------- Galaxy S4, S5 and Note 3 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-and (device-width: 320px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Portrait */
-@media screen
-and (device-width: 320px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen
-and (device-width: 320px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) {
-
-}
-
-/* ----------- Galaxy S6 ----------- */
-
-/* Portrait and Landscape */
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 4) {
-
-}
-
-/* Portrait */
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 4)
-and (orientation: landscape) {
-
-}
