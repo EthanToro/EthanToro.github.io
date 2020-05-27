@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <link rel="stylesheet" href="main.css" />
     <title>
-        Test website
+      Test website
     </title>
-</head>
+  </head>
 
-<body>
-    <div>
-        <h1 class="titleTxt">
-            Test Website
-        </h1>
+  <body>
+    <!-- NavBar -->
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
     </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()">open</span>
+
     <!-- images -->
     <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="images/img1.jpg">
-            </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/img1.jpg" />
         </div>
-        <div class="column">
-            <div class="card">
-                <img src="images/img2.jpg">
-            </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/img2.jpg" />
         </div>
-        <div class="column">
-            <div class="card">
-                <img src="images/img3.jpg">
-            </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/img3.jpg" />
         </div>
-        <div class="column">
-            <div class="card">
-                <img src="images/img4.jpg">
-            </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/img4.jpg" />
         </div>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="main.js"></script>
 </html>
