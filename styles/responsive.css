@@ -1,0 +1,29 @@
+/*~~~~~~~~
+Responsive
+~~~~~~~~*/
+
+/*
+Navigation
+*/
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*
+Image Cards
+*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
