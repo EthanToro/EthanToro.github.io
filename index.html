@@ -2,6 +2,7 @@
 <html>
 <head>
     <!-- Links -->
+    <link rel="stylesheet" href="styles/reset.css">
     <link href="styles/main.css" rel="stylesheet"/>
     <link href="styles/responsive.css" rel="stylesheet">
 
@@ -13,26 +14,30 @@
 <body>
 <!-- Navigation -->
 
-<nav>
+<main>
     <div class="overlay" id="myNav">
         <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">
             &times;
         </a>
 
-        <div class="overlay-content">
+        <nav class="overlay-content">
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
-        </div>
+        </nav>
     </div>
 
-    <span onclick="openNav()">open</span>
-</nav>
+    <span id="navMenu" onclick="openNav()">
+        <img src="images/navMenu.png"/>
+    </span>
 
-
+    <div class="headerContainer">
+        <h1 id="titleLogo">Test Website</h1>
+    </div>
+</main>
+<div class="parallax"></div>
 <section>
-
     <!-- IMAGES -->
     <div class="row">
         <div class="column">

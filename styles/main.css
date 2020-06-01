@@ -2,6 +2,10 @@
 General
 ~~~~~*/
 
+body, html {
+  height: 100%;
+}
+
 html {
     background-color: lightblue;
 }
@@ -18,11 +22,27 @@ img {
     box-sizing: border-box;
 }
 
+#titleLogo{
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+.headerContainer{
+    background-color: #818181;
+}
+
 /*~~~~~~~~
 Navigation
 ~~~~~~~~*/
 
-/* The Overlay (background) */
+#navMenu{
+    float: left;
+    position: relative;
+    top: 23px;
+    left: 25px;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -62,6 +82,22 @@ Navigation
     top: 20px;
     right: 45px;
     font-size: 60px;
+}
+
+/*~~~~~~~~~~~~~~~~
+Parallax Scrolling
+~~~~~~~~~~~~~~~~*/
+
+.parallax {
+    background-image: url('../images/img5.jpg');
+
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*~~~~~~~~~
