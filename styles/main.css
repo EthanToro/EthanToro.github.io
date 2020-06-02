@@ -6,12 +6,9 @@ body, html {
     height: 100%;
 }
 
-html {
-    background-color: lightblue;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 img {
@@ -26,6 +23,13 @@ img {
     text-align: center;
     font-size: 3em;
     padding: 0.5em;
+}
+
+.subTitleTxt {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+    background-color: gray;
 }
 
 .headerContainer {
@@ -51,7 +55,7 @@ main {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     background-color: rgb(0, 0, 0);
@@ -93,8 +97,10 @@ Parallax Scrolling
 ~~~~~~~~~~~~~~~~*/
 
 .parallax {
-    background-image: url('../images/img10.jpg');
+    /* The image used */
+    background-image: url("../images/img10.jpg");
 
+    /* Full height */
     height: 100%;
 
     /* Create the parallax scrolling effect */
@@ -108,9 +114,17 @@ Parallax Scrolling
 Slideshow
 ~~~~~~~~~*/
 
+.slideshowContainer {
+    max-width: 100%;
+    padding: 2em;
+}
+
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
+    z-index: 1;
+    width: 85%;
+    margin: auto;
 }
 
 /* Hide the images by default */
@@ -165,8 +179,9 @@ Slideshow
 .caption-container {
     text-align: center;
     background-color: #222;
-    padding: 2px 16px;
-    color: Black;
+    padding: 1em;
+    font-size: 1.7em;
+    color: white;
 }
 
 .row:after {
