@@ -9,6 +9,8 @@ body, html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 0;
+
 }
 
 img {
@@ -204,4 +206,21 @@ Slideshow
 .active,
 .demo:hover {
     opacity: 1;
+}
+
+/*
+Responsive Image Grid
+ */
+/* Create four equal columns that sits next to each other */
+.column1 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+
+}
+
+.column1 img {
+
+  vertical-align: middle;
+  width: 100%;
 }
