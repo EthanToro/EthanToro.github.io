@@ -1,6 +1,10 @@
 /**
 General Settings
 **/
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,9 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 .sectionTitle {
     margin: 1em 0 1em 1em;
