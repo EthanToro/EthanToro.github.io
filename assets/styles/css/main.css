@@ -1,3 +1,4 @@
+/* General Dont Touch Please */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,8 @@ body{
 
     min-height: 100vh;
 }
+/* End of General Dont Touch Please */
+/* Header */
 header{
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -41,8 +44,37 @@ header.container-fluid{
     padding: 0;
 }
 
+/* End of Header */
+/* Navbar */
 .nav-bar-justify{
     justify-content: center;
 
 }
+/* End of Navbar */
+/* Cards */
+.card-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.vertically-center{
+    padding: 10px;
+}
+/* End of Cards */
 
+/* Footer */
+.footer-header{
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin: 0;
+}
+.footer-images{
+
+}
+footer img{
+    width: 200px;
+    padding: 10px;
+}
+/* End of Footer */
