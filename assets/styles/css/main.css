@@ -70,11 +70,14 @@ header.container-fluid{
     padding: 10px;
     margin: 0;
 }
-.footer-images{
 
-}
 footer img{
     width: 200px;
     padding: 10px;
+}
+.footer-copyright{
+    background-color: #e4e4e4;
+    padding: 10px;
+    margin: 0;
 }
 /* End of Footer */
