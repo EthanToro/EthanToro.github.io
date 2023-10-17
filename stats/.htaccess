@@ -1,0 +1,7 @@
+AuthName "coreycompressor.com statistics"
+AuthType Basic
+AuthUserFile /home/coreycompressor/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
