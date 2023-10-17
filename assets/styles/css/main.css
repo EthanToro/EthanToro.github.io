@@ -4,28 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
+
+html, body {
     min-height: 100%;
 }
-body{
+
+body {
 
     min-height: 100vh;
 }
+
 /* End of General Dont Touch Please */
 /* Header */
-header{
+header {
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     width: 100%;
 }
-.head-content{
+
+.head-content {
     padding: 30px;
 }
 
-.header-center-text{
+.header-center-text {
     color: #454545;
-    font-family: "Times New Roman",Times,serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 21px;
     font-style: italic;
     font-weight: bold;
@@ -34,50 +38,56 @@ header{
     text-align: center;
 }
 
-header .phone-number{
+header .phone-number {
     background-color: #e4e4e4;
     padding: 10px;
     margin: 0;
 
 }
-header.container-fluid{
+
+header.container-fluid {
     padding: 0;
 }
 
 /* End of Header */
 /* Navbar */
-.nav-bar-justify{
+.nav-bar-justify {
     justify-content: center;
 
 }
+
 /* End of Navbar */
 /* Cards */
-.card-center{
+.card-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 100%;
 }
-.vertically-center{
+
+.vertically-center {
     padding: 10px;
 }
+
 /* End of Cards */
 
 /* Footer */
-.footer-header{
+.footer-header {
     background-color: #e4e4e4;
     padding: 10px;
     margin: 0;
 }
 
-footer img{
+footer img {
     width: 200px;
     padding: 10px;
 }
-.footer-copyright{
+
+.footer-copyright {
     background-color: #e4e4e4;
     padding: 10px;
     margin: 0;
 }
+
 /* End of Footer */
